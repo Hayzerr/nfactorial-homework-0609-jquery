@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu{
+    flex-direction: column;
+    background-color: yellow;
+    height: 100vh;
+    width: 10%;
+}
+.btn{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 30px;
+}
+.form2{
+    display: none;
+}
+.text{
+    font-size: 30px;
+}
+.container{
+    position: relative;
+    left: 20px;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    background-color: rgb(235, 95, 95);
+
+}   
+form{
+    width: 20%;
+    position: relative;
+    left: 1%;
+}
